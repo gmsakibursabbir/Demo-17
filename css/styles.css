@@ -1,0 +1,284 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+/* ==== Global ==== */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	display: flex;
+  	width: 100%;
+  	justify-content: space-between;
+  	padding: 20px;
+  	list-style: none;
+  }
+
+.nav-links{
+  	display: flex;
+  	align-items: center;
+  	text-decoration: none;
+  }
+
+.nav-links li{
+	margin: 0 30px;
+	font-weight: bolder;
+	list-style: none;
+}
+
+.click{
+	color: black;
+}
+
+.click:hover{
+	color: #ff454f;
+	transition: 0.5s;
+}
+
+.logo{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	padding-left: 2%;
+}
+
+header{
+	width: 100vw;
+	height: 100vh;
+	/* background-image: url('./images/html.jpg'); */
+	background-position: bottom;
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+.header-content{
+	margin-bottom: 150px;
+	color: black;
+	text-align: center;
+	opacity: 0.7;
+	font-family: 'Poppins', sans-serif;
+}
+
+.header-content h2{
+	font-size: 30px;
+}
+
+.line{
+		width: 150px;
+		height: 3px;
+		background: red;
+		margin: 10px auto;
+		border-radius: 5px;
+		font-family: 'Poppins', sans-serif;
+}
+
+.header-content h1{
+	font-size: 50px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bolder;
+}
+
+.btn{
+	padding: 12px 20px;
+	margin: 30px;
+	background-color: rgba(00, 00, 00, 0.5);
+  	-webkit-backdrop-filter: blur(5px);
+  	backdrop-filter: blur(5px);
+  	color: white;
+  	border-radius: 20px;
+  	font-family: 'Poppins', sans-serif;
+  }
+
+ .btn:hover{
+ 	color: #ff96a1;
+ 	transition: 0.5s;
+ }
+
+.container{
+	width: 100vw;
+	height: 60vh;
+	display: flex;
+}
+
+.contact{
+	min-height: 100px;
+	background-color: red;
+}
+
+.blog{
+	min-height: 100px;
+	background-color: yellow;
+}
+
+	/* wrapper */
+
+	section{
+		width: 80%;
+		margin: 80px auto;
+
+	}
+
+	.title{
+		text-align: center;
+	
+		font-size: 40px;
+		font-family: 'Poppins', sans-serif;
+	}
+
+.row{
+overflow: hidden;
+	
+}
+
+.row .col1{
+	float: left;
+	width: 60%;
+	min-height: 50px;
+	background-color: #53BF9D;
+}
+
+.row .col2{
+	float: right;
+	width: 40%;
+	min-height: 50px;
+	background-color: #F94C66;
+}
+
+.row .col3{
+	float: left;
+	width: 30%;
+	min-height: 50px;
+	background-color: #DF7861;
+}
+
+.row .col4{
+	float: left;
+	width: 40%;
+	min-height: 50px;
+	background-color: #7C3E66;
+}
+
+.row .col5{
+	float: left;
+	width: 30%;
+	min-height: 50px;
+	background-color: #FBCB0A;
+}
+
+.row .col6{
+	float: left;
+	width: 25%;
+	min-height: 50px;
+	background-color: #C70A80;
+}
+
+.row .col7{
+	float: left;
+	width: 25%;
+	min-height: 50px;
+	background-color: #590696;
+}
+
+.row .col8{
+	float: left;
+	width: 25%;
+	min-height: 50px;
+	background-color: #37E2D5;
+}
+
+
+.row .col9{
+	float: left;
+	width: 25%;
+	min-height: 50px;
+	background-color: #F806CC;
+}
+
+.hw{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+/* 50Tag */
+
+input{
+	padding: 8px 16px;
+	border-radius: 30px;
+	border-color: dimgray;
+	background-color: #cacaca94;
+}
+
+
+
+
+/* 50Tag */
+
+
+
+footer{
+	min-height: 100px;
+	background: linear-gradient(90deg, rgba(229,180,227,1) 0%, rgba(204,183,239,1) 35%, rgba(214,212,251,1) 100%);
+}
+
+footer .navbar2{
+  	top: 0;
+  	left: 0;
+  	display: flex;
+  	width: 100%;
+  	justify-content: space-between;
+  	padding: 20px;
+  	list-style: none;
+  }
+
+footer .nav-links2{
+  	display: flex;
+  	align-items: center;
+  	text-decoration: none;
+  }
+
+footer .nav-links2 li{
+	margin: 0 30px;
+	font-weight: bolder;
+	list-style: none;
+}
+
+.logo2{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	padding-left: 2%;
+}
+
+.logo2:hover{
+		color: #ff454f;
+		transition: 0.5s;
+}
+
+.click2{
+	color: black;
+	cursor: pointer;
+}
+
+
+.click2:hover{
+	color: #ff454f;
+	transition: 0.5s;
+}
+
+
